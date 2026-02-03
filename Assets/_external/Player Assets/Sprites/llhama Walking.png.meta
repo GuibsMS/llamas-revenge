@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 82dfd38b4b340b84e9a96db6c953d8a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5818041962201063204
+    second: Lhama Walking_0
+  - first:
+      213: -6834303594972110078
+    second: Lhama Walking_1
+  - first:
+      213: -8622398726658386895
+    second: Lhama Walking_2
+  - first:
+      213: -3250903758891802234
+    second: Lhama Walking_3
+  - first:
+      213: -1095171431101172374
+    second: Lhama Walking_4
+  - first:
+      213: 6731722002077078260
+    second: Lhama Walking_5
+  - first:
+      213: 8773454563007165061
+    second: Lhama Walking_6
+  - first:
+      213: 4832092843291776306
+    second: Lhama Walking_7
+  - first:
+      213: -8015423627484783391
+    second: Lhama Walking_8
+  - first:
+      213: 4767511080676046395
+    second: Lhama Walking_9
+  - first:
+      213: 1009918190411539223
+    second: Lhama Walking_10
+  - first:
+      213: 8833832994748432086
+    second: Lhama Walking_11
+  - first:
+      213: -1450570288989347493
+    second: Lhama Walking_12
+  - first:
+      213: 5982092778987760987
+    second: Lhama Walking_13
+  - first:
+      213: -4321134297211492688
+    second: Lhama Walking_14
+  - first:
+      213: -5913901326605499659
+    second: Lhama Walking_15
+  - first:
+      213: 3238742277977921498
+    second: Lhama Walking_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lhama Walking_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 769
+        width: 506
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd060b229a9224fa0800000000000000
+      internalID: -5818041962201063204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_1
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 768
+        width: 494
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203238e071da721a0800000000000000
+      internalID: -6834303594972110078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_2
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1237
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1341fb1aa06175880800000000000000
+      internalID: -8622398726658386895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_3
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1202
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681a54c514872e2d0800000000000000
+      internalID: -3250903758891802234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_4
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 768
+        width: 505
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65fe09c26b2dc0f0800000000000000
+      internalID: -1095171431101172374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_5
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 768
+        width: 506
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f25c74ae71eb6d50800000000000000
+      internalID: 6731722002077078260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_6
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 1202
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5827219f07291c970800000000000000
+      internalID: 8773454563007165061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_7
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 123
+        width: 472
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2351d16e6da0f0340800000000000000
+      internalID: 4832092843291776306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_8
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 123
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec1f77adae73c090800000000000000
+      internalID: -8015423627484783391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_9
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 123
+        width: 459
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b363f6a811a992240800000000000000
+      internalID: 4767511080676046395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_10
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 569
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7136faf4e33f30e00800000000000000
+      internalID: 1009918190411539223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_11
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 135
+        width: 471
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6defa191e44189a70800000000000000
+      internalID: 8833832994748432086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_12
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 381
+        width: 13
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51ed03f10a8edbe0800000000000000
+      internalID: -1450570288989347493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_13
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 382
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5daef020b9a40350800000000000000
+      internalID: 5982092778987760987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_14
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 381
+        width: 13
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6a3f3404f3804c0800000000000000
+      internalID: -4321134297211492688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_15
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 429
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2c7fe931a9deda0800000000000000
+      internalID: -5913901326605499659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lhama Walking_16
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 123
+        width: 73
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7d9e531f252fc20800000000000000
+      internalID: 3238742277977921498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lhama Walking_0: -5818041962201063204
+      Lhama Walking_1: -6834303594972110078
+      Lhama Walking_10: 1009918190411539223
+      Lhama Walking_11: 8833832994748432086
+      Lhama Walking_12: -1450570288989347493
+      Lhama Walking_13: 5982092778987760987
+      Lhama Walking_14: -4321134297211492688
+      Lhama Walking_15: -5913901326605499659
+      Lhama Walking_16: 3238742277977921498
+      Lhama Walking_2: -8622398726658386895
+      Lhama Walking_3: -3250903758891802234
+      Lhama Walking_4: -1095171431101172374
+      Lhama Walking_5: 6731722002077078260
+      Lhama Walking_6: 8773454563007165061
+      Lhama Walking_7: 4832092843291776306
+      Lhama Walking_8: -8015423627484783391
+      Lhama Walking_9: 4767511080676046395
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
