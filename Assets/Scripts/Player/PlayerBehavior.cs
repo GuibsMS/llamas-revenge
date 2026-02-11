@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerBehavior : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5;
+    [SerializeField] private float moveSpeed = 10;
     [SerializeField] private float jumpForce = 3;
 
     [Header("Propriedades de ataque")]
@@ -40,6 +40,16 @@ public class PlayerBehavior : MonoBehaviour
         {
             transform.localScale = Vector3.one;
         }
+
+        if (isGroundedChecker.IsGrounded() == false)
+        {
+            moveSpeed = 8; 
+        }
+        else
+        {
+            moveSpeed = 10; 
+        }
+      
     }
 
     private void HandleJump()
