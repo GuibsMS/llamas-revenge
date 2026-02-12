@@ -12,6 +12,7 @@ public class PlayerBehavior : MonoBehaviour
     [SerializeField] private Transform attackPosition;
     [SerializeField] private LayerMask attackLayer;
 
+    public GameObject spit;
     private Rigidbody2D rigidbody;
     private IsGroundedChecker isGroundedChecker;
 
@@ -80,6 +81,11 @@ public class PlayerBehavior : MonoBehaviour
                 enemyHealth.TakeDamage();
             }
         }
+    }
+
+    private void Shoot()
+    {
+       
     }
 
     private void OnDrawGizmos()

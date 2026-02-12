@@ -16,6 +16,7 @@ public class PlayerAnim : MonoBehaviour
         playerHealth.OnDead += PlayDeadAnim;
 
         GameManager.Instance.InputManager.OnAttack += PlayAttackAnim;
+        GameManager.Instance.InputManager.OnSpit += PlaySpitAnim;
     }
 
     private void Update()
@@ -40,5 +41,10 @@ public class PlayerAnim : MonoBehaviour
     private void PlayAttackAnim()
     {
         animator.SetTrigger("attack");
+    }
+
+    private void PlaySpitAnim()
+    {
+        animator.SetTrigger("spit");
     }
 }

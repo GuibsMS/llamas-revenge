@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: 81efc764375bc4744b803226acb52a1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1566571803472677662
+    second: llama Spit_0
+  - first:
+      213: -5245735959225499624
+    second: llama Spit_1
+  - first:
+      213: -8847186489312715719
+    second: llama Spit_2
+  - first:
+      213: -8256718704090790276
+    second: llama Spit_3
+  - first:
+      213: 5958492098878750303
+    second: llama Spit_4
+  - first:
+      213: 8604043175070847091
+    second: llama Spit_5
+  - first:
+      213: 1745093510019367623
+    second: llama Spit_6
+  - first:
+      213: 6342861471629792495
+    second: llama Spit_7
+  - first:
+      213: -6089044885825691858
+    second: llama Spit_8
+  - first:
+      213: 8947627451126782713
+    second: llama Spit_9
+  - first:
+      213: 5156945893089151446
+    second: llama Spit_10
+  - first:
+      213: 1622347573627227452
+    second: llama Spit_11
+  - first:
+      213: -3276783742300636522
+    second: llama Spit_12
+  - first:
+      213: 1911221015949666740
+    second: llama Spit_13
+  - first:
+      213: -3879932377087247613
+    second: llama Spit_14
+  - first:
+      213: 8430092931083813272
+    second: llama Spit_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: llama Spit_0
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 765
+        width: 512
+        height: 595
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bc12551c49db510800000000000000
+      internalID: 1566571803472677662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama Spit_1
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 769
+        width: 582
+        height: 595
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8100fdc20f66337b0800000000000000
+      internalID: -5245735959225499624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama Spit_6
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1172
+        width: 133
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c24b8c2d41d73810800000000000000
+      internalID: 1745093510019367623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama Spit_9
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 1172
+        width: 128
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa12fe92cb5c2c70800000000000000
+      internalID: 8947627451126782713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama Spit_13
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 116
+        width: 513
+        height: 595
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9e0fe4365068a10800000000000000
+      internalID: 1911221015949666740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d2c8152d2aa3b9a4da91c437ccea4ca3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      llama Spit_0: 1566571803472677662
+      llama Spit_1: -5245735959225499624
+      llama Spit_10: 5156945893089151446
+      llama Spit_11: 1622347573627227452
+      llama Spit_12: -3276783742300636522
+      llama Spit_13: 1911221015949666740
+      llama Spit_14: -3879932377087247613
+      llama Spit_15: 8430092931083813272
+      llama Spit_2: -8847186489312715719
+      llama Spit_3: -8256718704090790276
+      llama Spit_4: 5958492098878750303
+      llama Spit_5: 8604043175070847091
+      llama Spit_6: 1745093510019367623
+      llama Spit_7: 6342861471629792495
+      llama Spit_8: -6089044885825691858
+      llama Spit_9: 8947627451126782713
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
