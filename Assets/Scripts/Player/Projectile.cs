@@ -1,17 +1,26 @@
 using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    [SerializeField] const int lifeTime = 2;
-    [SerializeField] private float speed;
-    void Start()
+    private Rigidbody2D rb;
+    public float speed = 10f;
+
+    void Awake()
     {
-        Destroy(this.gameObject, lifeTime);
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    public void Launch(float direction)
     {
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
+        rb.linearVelocity = new Vector2(direction * speed, 0f);
+
+        if (direction < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+
+        Destroy(gameObject, 5f);
     }
 }

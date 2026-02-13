@@ -85,7 +85,17 @@ public class PlayerBehavior : MonoBehaviour
 
     private void Shoot()
     {
-       
+        if (spit == null)
+        {
+            Debug.LogError("Spit prefab is not assigned in the inspector.");
+            return;
+        }
+
+        GameObject newSpit = Instantiate(spit, attackPosition.position, Quaternion.identity);
+        Projectile spitScript = newSpit.GetComponent<Projectile>();
+        float llamaDirection = transform.localScale.x;
+
+        spitScript.Launch(llamaDirection);
     }
 
     private void OnDrawGizmos()
