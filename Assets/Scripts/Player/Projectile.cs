@@ -18,9 +18,27 @@ public class Projectile : MonoBehaviour
 
         if (direction < 0)
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-1f, 0.5f, 1f);
         }
 
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, 0.5f);
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            if (collision.gameObject.TryGetComponent(out Health enemyHealth))
+            {
+                enemyHealth.TakeDamage();
+            }
+
+            Destroy(gameObject);
+        }
+
+        else if (collision.gameObject.CompareTag("Ground"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
