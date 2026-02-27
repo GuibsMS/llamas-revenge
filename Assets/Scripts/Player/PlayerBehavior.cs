@@ -1,9 +1,13 @@
+using TMPro;
+using UnityEngine.UI;
 using NUnit.Framework;
 using Unity.VisualScripting;    
 using UnityEngine;
+using System;
 
 public class PlayerBehavior : MonoBehaviour
 {
+    [Header("Propriedades de movimento")]
     [SerializeField] private float moveSpeed = 10;
     [SerializeField] private float jumpForce = 3;
 
@@ -11,6 +15,9 @@ public class PlayerBehavior : MonoBehaviour
     [SerializeField] private float attackRange = 1f;
     [SerializeField] private Transform attackPosition;
     [SerializeField] private LayerMask attackLayer;
+
+    public int emeraldsCollected = 0;
+    public TextMeshProUGUI emeraldsText;
 
     public GameObject spit;
     private Rigidbody2D rigidbody;
@@ -69,8 +76,6 @@ public class PlayerBehavior : MonoBehaviour
     private void Attack()
     {
         Collider2D[] hittedEnemies = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, attackLayer);
-        print("Making enemy take damage");
-        print(hittedEnemies.Length);
 
         foreach (Collider2D hittedEnemy in hittedEnemies)
         {
@@ -96,6 +101,13 @@ public class PlayerBehavior : MonoBehaviour
         float llamaDirection = transform.localScale.x;
 
         spitScript.Launch(llamaDirection);
+    }
+
+    public void EmeraldCollected()
+    {
+        emeraldsCollected++;
+        emeraldsText.text = emeraldsCollected.ToString();
+        Debug.Log("Esmeralda coletada! Total: " + emeraldsCollected);
     }
 
     private void OnDrawGizmos()
