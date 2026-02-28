@@ -15,11 +15,15 @@ public class PlayerBehavior : MonoBehaviour
     [SerializeField] private float attackRange = 1f;
     [SerializeField] private Transform attackPosition;
     [SerializeField] private LayerMask attackLayer;
+    public GameObject spit;
 
+    [Header("Propriedades de vida")]
+    public Image[] healthHearts;
+
+    [Header("Propriedades de coletáveis")]
     public int emeraldsCollected = 0;
     public TextMeshProUGUI emeraldsText;
 
-    public GameObject spit;
     private Rigidbody2D rigidbody;
     private IsGroundedChecker isGroundedChecker;
 
@@ -27,6 +31,7 @@ public class PlayerBehavior : MonoBehaviour
     {        
         rigidbody = GetComponent<Rigidbody2D>();
         isGroundedChecker = GetComponent<IsGroundedChecker>();
+        GetComponent<Health>().OnHurt += HandlePlayerHurt;
         GetComponent<Health>().OnDead += HandlePlayerDeath;
     }
 
@@ -66,11 +71,18 @@ public class PlayerBehavior : MonoBehaviour
         rigidbody.linearVelocity += Vector2.up * jumpForce;
     }
 
+    private void HandlePlayerHurt()
+    {
+        int currentLives = GetComponent<Health>().GetLives();
+        healthHearts[currentLives].gameObject.SetActive(false);
+    }
+
     private void HandlePlayerDeath()
     {
         GetComponent<Collider2D>().enabled = false;
         rigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
         GameManager.Instance.InputManager.DisablePlayerInput();
+        healthHearts[0].gameObject.SetActive(false);
     }
 
     private void Attack()

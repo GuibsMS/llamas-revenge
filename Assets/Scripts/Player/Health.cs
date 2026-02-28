@@ -5,6 +5,10 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private int lives;
 
+    public int GetLives()
+    {
+        return lives;
+    }
     public event Action OnDead;
     public event Action OnHurt;
 

@@ -1,3 +1,4 @@
+using UnityEngine.UI;
 using Unity.VisualScripting;
 using UnityEngine;
 using System.Collections;
@@ -12,6 +13,9 @@ public class MeleeEnemy : MonoBehaviour
     private float coolDownTimer;
     private Animator animator;
     private Health meleeEnemyHealth;
+
+     [Header("Propriedades de vida")]
+    public Image[] healthHearts;
     private bool isDead = false;
 
     private void Awake()
@@ -75,6 +79,8 @@ private void VerifyCanAttack()
     private void PlayHurtAnim()
     {
         animator.SetTrigger("hurt");
+        int currentLives = GetComponent<Health>().GetLives();
+        healthHearts[currentLives].gameObject.SetActive(false);
     }
 
     private void PlayDeadAnim()
@@ -84,6 +90,8 @@ private void VerifyCanAttack()
         animator.SetTrigger("dead");
 
         GetComponent<Collider2D>().enabled = false;
+
+        healthHearts[0].gameObject.SetActive(false);
 
         StartCoroutine(DestroyEnemy(3));
     }
