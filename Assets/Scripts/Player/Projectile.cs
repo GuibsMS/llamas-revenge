@@ -1,5 +1,4 @@
 using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -21,7 +20,7 @@ public class Projectile : MonoBehaviour
             transform.localScale = new Vector3(-1f, 0.5f, 1f);
         }
 
-        Destroy(gameObject, 0.5f);
+        Destroy(gameObject, 1f);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

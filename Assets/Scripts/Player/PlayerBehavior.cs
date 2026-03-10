@@ -4,6 +4,7 @@ using NUnit.Framework;
 using Unity.VisualScripting;    
 using UnityEngine;
 using System;
+using System.Collections;
 
 public class PlayerBehavior : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class PlayerBehavior : MonoBehaviour
 
     [Header("Propriedades de vida")]
     public Image[] healthHearts;
+    public GameObject panelGameOver;
+    public GameObject panelMobile;
 
     [Header("Propriedades de coletáveis")]
     public int emeraldsCollected = 0;
@@ -83,6 +86,8 @@ public class PlayerBehavior : MonoBehaviour
         rigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
         GameManager.Instance.InputManager.DisablePlayerInput();
         healthHearts[0].gameObject.SetActive(false);
+
+        StartCoroutine(GameOverDelay());
     }
 
     private void Attack()
@@ -120,6 +125,13 @@ public class PlayerBehavior : MonoBehaviour
         emeraldsCollected++;
         emeraldsText.text = emeraldsCollected.ToString();
         Debug.Log("Esmeralda coletada! Total: " + emeraldsCollected);
+    }
+
+    private IEnumerator GameOverDelay()
+    {
+        yield return new WaitForSeconds(2f);
+        panelGameOver.SetActive(true);
+        panelMobile.SetActive(false);
     }
 
     private void OnDrawGizmos()
